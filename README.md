@@ -1,6 +1,6 @@
 # Student Team Members Management App
 
-A full-stack web application for managing student team members, built with React, Node.js, Express, and Supabase.
+A full-stack web application for managing student team members, built with MERN
 
 ## Features
 
@@ -24,29 +24,13 @@ A full-stack web application for managing student team members, built with React
 - Express.js
 - Multer for file upload handling
 
-### Database & Storage
-- Supabase for database and file storage
-
 ## Setup Instructions
 
 ### Prerequisites
 - Node.js (v14 or later)
 - npm or yarn
-- Supabase account
 
-### Supabase Setup
-1. Create a new Supabase project at https://supabase.com
-2. In the Supabase dashboard, go to SQL Editor
-3. Run the SQL queries from `supabase/migrations/create_members_table.sql`
-4. Get your Supabase URL and anon key from the API settings
 
-### Environment Variables
-Create a `.env` file in the root directory with the following variables:
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-SERVER_PORT=5000
-```
 
 ### Installation
 1. Clone the repository
@@ -80,7 +64,6 @@ SERVER_PORT=5000
 │   └── main.tsx            # Entry point
 ├── server/                 # Backend source code
 │   └── index.js            # Express server setup
-├── supabase/               # Supabase config and migrations
 └── package.json            # Project dependencies and scripts
 ```
 
