@@ -8,7 +8,6 @@ A full-stack web application for managing student team members, built with MERN
 - Add new team members with profile image upload
 - View all team members in a responsive grid layout
 - View detailed information for each team member
-- Secure storage of member data and images with Supabase
 
 ## Tech Stack
 
